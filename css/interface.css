@@ -1,0 +1,216 @@
+
+.interface_wrapper {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interface_descr {
+    padding-left: 58px;
+    border-left: 3px solid #fff ;
+}
+
+.interface_subtitle {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.interface_title {
+    max-width: 540px;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.interface_text {
+    max-width: 601px;
+}
+
+.interface_btn {
+    margin-top: 21px;
+}
+
+.interface_img {
+    padding-left: 20px;
+    max-width: 600px;
+}
+
+/* media--------------------------------- */
+
+@media (max-width: 1419px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1195px) {
+
+    .interface_descr {
+        padding-left: 38px;
+    }
+
+    .interface_subtitle {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    
+    .interface_title {
+        max-width: 540px;
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+    .interface_btn {
+        margin-top: 15px;
+    }
+
+    .btn .btn_content {
+        padding: 0 20px;
+        z-index: 999;
+        position: relative;
+        font-size: 20px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .interface_wrapper {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .interface_descr {
+        margin-top: 50px;
+        padding-left: 58px;
+        border-left: 3px solid #fff ;
+    }
+    
+    .interface_subtitle {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .interface_title {
+        max-width: 800px;
+        font-size: 60px;
+        line-height: 90px;
+    }
+    
+    .interface_text {
+        max-width: 800px;
+    }
+    
+    .interface_btn {
+        margin-top: 21px;
+    }
+    
+    .interface_img {
+        margin-left: auto;
+        padding-right: 58px;
+    }
+
+    .interface_btn {
+        margin-top: 55px;
+    }
+
+    .btn .btn_content {
+        padding: 0 58px;
+        z-index: 999;
+        position: relative;
+        font-size: 27.1328px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .interface_img {
+        margin: 0 auto;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 632px) {
+    .interface_title {
+        max-width: 540px;
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .interface_descr {
+        padding-left: 38px;
+    }
+
+    .interface_subtitle {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .interface_title {
+        max-width: 540px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .interface_text {
+        max-width: 800px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .interface_btn {
+        margin-top: 35px;
+    }
+
+    .btn .btn_content {
+        padding: 0 48px;
+        z-index: 999;
+        position: relative;
+        font-size: 22px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 432px) {
+
+    .interface_wrapper {
+        margin-top: 50px;
+    }
+
+    .interface_descr {
+        padding-left: 28px;
+    }
+
+    .interface_subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .interface_title {
+        max-width: 540px;
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .interface_text {
+        max-width: 800px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .btn .btn_content {
+        padding: 0 38px;
+        z-index: 999;
+        position: relative;
+        font-size: 20px;
+        line-height: 50px;
+    }
+}

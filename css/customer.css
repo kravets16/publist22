@@ -1,0 +1,163 @@
+.customer {
+    padding-top: 150px;
+}
+
+.customer_title {
+    margin: 0 auto 50px auto;
+    max-width: 600px;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.customer_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 18px;
+    row-gap: 27px;
+}
+
+.customer_card {
+    /* width: 451.32px; */
+    position: relative;
+}
+/* content */
+.customer_card:before {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	right: 1px;
+	background-color: #0F0B30;
+	z-index: 1;
+	border-radius: 27.3727px;
+}
+.customer_card:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+	z-index: -1;
+	border-radius: 27.3727px;
+}
+
+.customer_card .customer_card-content {
+    padding: 48px 45px 40px 45px ;
+    z-index: 999;
+	position: relative;
+    border-radius: 27.3727px 0 0 27.3727px;
+    background: linear-gradient(90deg, rgba(0, 240, 255, 0.21) 0%, rgba(255, 0, 122, 0) 100%);
+}
+
+/* end content */
+
+.castomer_card-text {
+    font-weight: 400;
+    font-size: 16.0231px;
+    line-height: 24px;
+}
+
+.customer_card-img {
+    width: 46.73px;
+    height: 46.73px;
+    border-radius: 100%;
+    background: url('../img/customer/Saul\ Ramirez.avif') center center/cover   no-repeat;
+}
+
+.customer_card-wrapper {
+    margin-top: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.customer_card-descr {
+    margin-left: 18px;
+}
+
+.customer_card-name title {
+    font-size: 21.3641px;
+    line-height: 32px;
+}
+
+.customer_card-prof {
+    font-size: 12.0173px;
+    line-height: 18px;
+}
+
+@media (max-width: 1419px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1168px) {
+    .customer_card .customer_card-content {
+        padding: 38px 35px 30px 35px ;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .customer {
+        padding-top: 50px;
+    }
+    
+    .customer_card .customer_card-content {
+        padding: 48px 45px 40px 45px ;
+
+    }
+
+    .customer_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .customer_card .customer_card-content {
+        padding: 38px 35px 30px 35px ;
+
+    }
+}
+
+@media (max-width: 676px) {
+
+    .customer_title {
+        max-width: 450px;
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .customer_card .customer_card-content {
+        padding: 28px 25px 20px 25px ;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+    .customer_card .customer_card-content {
+        padding: 48px 45px 40px 45px ;
+
+    }
+
+    .customer_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+@media (max-width: 410px) {
+    .customer_title {
+        max-width: 350px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+}
+
+
+

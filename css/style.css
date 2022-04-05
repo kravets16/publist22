@@ -84,11 +84,13 @@ legend {
 
 
 body {
-    font-family: 'Montserrat';
-    font-weight: 600;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 	font-style: normal;
     font-size: 14px;
-    color: #737373;
+    color: #fff;
+    background: #0F0B30;
 }
 
 .none {
@@ -98,8 +100,64 @@ body {
 /* grid */
 
 .container {
-    width: 1076px;
+    width: 1420px;
     margin: 0 auto;
     padding: 0 15px;
-
+    /* background: #00F0FF; */
 }
+
+
+
+/* style */
+
+.title {
+    background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* btn================= */
+
+.btn {
+    position: relative;
+}
+
+.btn:before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	bottom: 3px;
+	right: 3px;
+	background-color: #0F0B30;
+	z-index: 1;
+	border-radius: 50px;
+}
+.btn:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(90deg, #00F0FF 0%, #5773FF 46.87%, #FF007A 100%);
+	z-index: -1;
+	border-radius: 50px;
+}
+
+.btn .btn_content {
+    padding: 0 58px;
+    z-index: 100;
+	position: relative;
+	font-size: 27.1328px;
+    line-height: 70px;
+    border-radius: 50px;
+}
+
